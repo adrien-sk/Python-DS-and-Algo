@@ -3,9 +3,9 @@ Currently commiting to Leetcoding, I'm saving here the list of Algorithms I'm mo
 Purpose is having a daily shortcut/summary for Drill/Kata training.
 
 ## Problems Lists
-leetcode-75: [https://leetcode.com/studyplan/leetcode-75/]
-Blind-75: [https://neetcode.io/practice]
-sean prashad-180 : [https://seanprashad.com/leetcode-patterns/]
+leetcode-75: [https://leetcode.com/studyplan/leetcode-75/]()
+Blind-75: [https://neetcode.io/practice]()
+sean prashad-180 : [https://seanprashad.com/leetcode-patterns/]()
 
 ## Cheatsheet
 Below is a Cheatsheet of the Input format > Problem goal > Algorithm to use :
