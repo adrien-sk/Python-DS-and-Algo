@@ -5,49 +5,49 @@ Below is a Cheatsheet of the Input format > Problem goal > Algorithm to use :
 
 - Array
     - Sorted
-        - [Binary Search]()
-        - [Two Pointers]()
+        - [Binary Search](binary_search.py)
+        - [Two Pointers](two_pointers_reverse.py)
 
     - Unsorted
-        - [HashMap]()
-        - [HashSet]()
+        - HashMap
+        - HashSet
 
     - String to Build
-        - [Stack]()
+        - Stack
 
     - SubArrays
-        - [Sliding Window]()
+        - [Sliding Window](sliding_window.py)
     
     - Max/Min, Top/Least K items
-        - [Heap]()
+        - Heap
     
     - Common Strings
-        - [Trie : 208 leetcode]()
+        - Trie : 208 leetcode
 
 - Graph
     - Shortest path
         - [BFS](BFS.py)
     
     - Else
-        - [DFS]()
+        - DFS : [Preorder](DFS_preorder.py), [Inorder](DFS_inorder.py), [Postorder](DFS_postorder.py)
 
 - Tree
     - Question about Depth/Levels
         - [BFS](BFS.py)
     - Else
-        - [DFS]()
+        - DFS : [Preorder](DFS_preorder.py), [Inorder](DFS_inorder.py), [Postorder](DFS_postorder.py)
 
 - Linked List
     - Cycle or Split list
-        - [Fast and Slow Pointers]()
+        - [Fast and Slow Pointers](slow_fast_pointer.py)
     
     - Reverse
-        - [Prev pointer]()
+        - Prev pointer
     
     - Return original Head
-        - [Dummy Pointer]()
+        - Dummy Pointer
 
 - Sort
-    - Merge Sort
+    - [Merge Sort](merge_sort.py)
 
-    - Quick Sort
+    - [Quick Sort](quick_sort.py)
