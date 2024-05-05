@@ -67,3 +67,12 @@ Below is a Cheatsheet of the Input format > Problem goal > Algorithm to use :
 - [Two-Pointers : Reversed traversal](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 - [Sliding Window : Fixed size](https://leetcode.com/problems/contains-duplicate-ii/description/)
 - [Sliding Window : Variable size](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+- [Tree DFS : Preorder](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)
+- [Tree DFS : Inorder](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
+- [Tree DFS : Postorder](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
+- [Tree BFS](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
+- [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) - [(Doc)](https://medium.com/codex/grokking-the-coding-interview-pattern-merge-interval-6e6b1e9e038c)
+- [Merge Sort](https://leetcode.com/problems/sort-an-array/description/)
+- [Quick Sort](https://leetcode.com/problems/sort-an-array/description/)
+
+Todo : Add matrix build (simple drill), traversal (dfs, bfs graphs ?)
