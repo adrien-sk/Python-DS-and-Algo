@@ -64,8 +64,9 @@ Below is a Cheatsheet of the Input format > Problem goal > Algorithm to use :
 
 - Array/String
     - [Binary Search](https://leetcode.com/problems/binary-search/description/)
-    - [Two-Pointers : 2 arrays traversal](https://leetcode.com/problems/valid-palindrome/description/)
+    - [Two-Pointers : 2 arrays traversal](https://leetcode.com/problems/merge-strings-alternately/description/)
     - [Two-Pointers : Opposite direction](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
+    - [Two-Pointers : Opposite direction]
     - [Sliding Window : Fixed size](https://leetcode.com/problems/contains-duplicate-ii/description/)
     - [Sliding Window : Variable size](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
     - [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) - [(Doc)](https://medium.com/codex/grokking-the-coding-interview-pattern-merge-interval-6e6b1e9e038c)
