@@ -58,3 +58,12 @@ Below is a Cheatsheet of the Input format > Problem goal > Algorithm to use :
     - [Merge Sort](merge_sort.py)
 
     - [Quick Sort](quick_sort.py)
+
+
+## Daily routine
+
+- [Binary Search](https://leetcode.com/problems/binary-search/description/)
+- [Two-Pointers : 2 arrays traversal](https://leetcode.com/problems/valid-palindrome/description/)
+- [Two-Pointers : Reversed traversal](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
+- [Sliding Window : Fixed size](https://leetcode.com/problems/contains-duplicate-ii/description/)
+- [Sliding Window : Variable size](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
