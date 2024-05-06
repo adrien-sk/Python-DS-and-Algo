@@ -4,12 +4,11 @@ left = 0
 ans = []
 
 for right in range(len(nums)):
-	# Code using nums[right] to update the state 
-	ans.append(nums[right])
-
-	# Condition if window is broken (eg. too long)
+	# Check + Solve condition for window (Left pointer) (eg. too long)
 	while right - left + 1 > k:
 		ans.remove(nums[left])
 		left += 1
-	
-	print(ans)
+
+	# Process element at Right index
+	ans.append(nums[right])
+	print(ans) # Window content for each loop
