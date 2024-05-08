@@ -1,21 +1,17 @@
 def slowFastPointer(self, head: Optional[ListNode]) -> bool:
-	# A) Slow and Fast start the same index for finding Cycling Linked List
 	slow = fast = head
-            # OR
-	# B) Fast start at Slow.next for finding Middle of the linked list
-	slow, fast = head, head.next
+	# If you need to find Left mid-point of an Even list instead of right, start Fast pointer at head.next
+	# slow, fast = head, head.next
 
 	while fast and fast.next:
 		slow = slow.next
 		fast = fast.next.next
 
-		# A) Found a Cycle
+		# Found a Cycle
 		if slow == fast:
 			return True
 		
-	return False # A) No cycle
-            # OR
-	# B) Out of while, we have 2 arrays head
-    left_array_head = head
-    right_array_head = slow.next
-    slow.next = None # Break the link if you need 2 list
+	return slow # Slow is middle right of the list (or left if Fast started at head.next)
+
+    # Break the link if you need 2 list (require fast started at head.next)
+	# slow.next = None 
