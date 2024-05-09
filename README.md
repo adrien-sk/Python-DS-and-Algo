@@ -3,9 +3,9 @@ Currently commiting to Leetcoding, I'm saving here the list of Algorithms I'm mo
 Purpose is having a daily shortcut/summary for Drill/Kata training.
 
 ## Problems Lists
-Leetcode-75: [https://leetcode.com/studyplan/leetcode-75/]()\
-Blind-75: [https://neetcode.io/practice]()\
-Sean Prashad-180 : [https://seanprashad.com/leetcode-patterns/]()
+Leetcode-75: [https://leetcode.com/studyplan/leetcode-75/](https://leetcode.com/studyplan/leetcode-75/)\
+Blind-75: [https://neetcode.io/practice](https://neetcode.io/practice)\
+Sean Prashad-180 : [https://seanprashad.com/leetcode-patterns/](https://seanprashad.com/leetcode-patterns/)
 
 ## Cheatsheet
 Below is a Cheatsheet of the Input format > Problem goal > Algorithm to use :
@@ -85,4 +85,6 @@ Below is a Cheatsheet of the Input format > Problem goal > Algorithm to use :
 
 
 
-Todo : Add matrix build (simple drill), traversal (dfs, bfs graphs ?)
+Todo : 
+- Add matrix build + traversal (dfs, bfs graphs ?)
+- Add Merge Intervals
