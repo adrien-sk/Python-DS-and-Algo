@@ -83,8 +83,15 @@ Below is a Cheatsheet of the Input format > Problem goal > Algorithm to use :
     - [Fast and Slow Pointers: Find cycle](https://leetcode.com/problems/linked-list-cycle/description)
     - [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
 
+- Backtracking
+    - [Find all solutions](https://leetcode.com/problems/generate-parentheses/description/)
+
 
 
 Todo : 
-- Add matrix build + traversal (dfs, bfs graphs ?)
 - Add Merge Intervals
+- Add Memoization/Dynamic prog.
+- Add matrix build + traversal (dfs, bfs graphs ?)
+- Add Heap
+- Add Trie
+- Add Monotonic Stack/Queue
