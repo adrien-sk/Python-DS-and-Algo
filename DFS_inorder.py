@@ -1,3 +1,5 @@
+# ------------------------------------------------------------------------------
+# Iterative
 def dfsInorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
 	if not root:
 		return []
@@ -15,5 +17,21 @@ def dfsInorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
 		node = stack.pop()
 		ans.append(node.val)
 		curr = node.right
+
+	return ans
+
+# ------------------------------------------------------------------------------
+# Recursive
+def dfsInorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+	def dfs(node):
+		if not node:
+			return
+		
+		dfs(node.left)
+		ans.append(node.val)
+		dfs(node.right)
+		
+	ans = []
+	dfs(root)
 
 	return ans

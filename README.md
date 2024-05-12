@@ -6,6 +6,7 @@ Purpose is having a daily shortcut/summary for Drill/Kata training.
 Leetcode-75: [https://leetcode.com/studyplan/leetcode-75/](https://leetcode.com/studyplan/leetcode-75/)\
 Blind-75: [https://neetcode.io/practice](https://neetcode.io/practice)\
 Sean Prashad-180 : [https://seanprashad.com/leetcode-patterns/](https://seanprashad.com/leetcode-patterns/)
+Team Blind List : [https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
 
 ## Cheatsheet
 Below is a Cheatsheet of the Input format > Problem goal > Algorithm to use :

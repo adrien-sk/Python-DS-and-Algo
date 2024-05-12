@@ -1,3 +1,5 @@
+# ------------------------------------------------------------------------------
+# Iterative
 def dfsPreorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
 	if not root:
 		return []
@@ -14,5 +16,21 @@ def dfsPreorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
 			stack.append(curr.right)
 		if curr.left:
 			stack.append(curr.left)
+
+	return ans
+
+# ------------------------------------------------------------------------------
+# Recursive
+def dfsPreorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+	def dfs(node):
+		if not node:
+			return
+		
+		ans.append(node.val)
+		dfs(node.left)
+		dfs(node.right)
+		
+	ans = []
+	dfs(root)
 
 	return ans
