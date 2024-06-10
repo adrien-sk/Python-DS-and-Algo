@@ -3,10 +3,10 @@ Currently commiting to Leetcoding, I'm saving here the list of Algorithms I'm mo
 Purpose is having a daily shortcut/summary for Drill/Kata training.
 
 ## Problems Lists
-Blind-75: [https://neetcode.io/practice](https://neetcode.io/practice)
-Grind-75: [https://www.techinterviewhandbook.org/grind75](https://www.techinterviewhandbook.org/grind75)
-Sean Prashad-180 : [https://seanprashad.com/leetcode-patterns/](https://seanprashad.com/leetcode-patterns/)
-Leetcode-75: [https://leetcode.com/studyplan/leetcode-75/](https://leetcode.com/studyplan/leetcode-75/)
+Blind-75: [https://neetcode.io/practice](https://neetcode.io/practice)/
+Grind-75: [https://www.techinterviewhandbook.org/grind75](https://www.techinterviewhandbook.org/grind75)/
+Sean Prashad-180 : [https://seanprashad.com/leetcode-patterns/](https://seanprashad.com/leetcode-patterns/)/
+Leetcode-75: [https://leetcode.com/studyplan/leetcode-75/](https://leetcode.com/studyplan/leetcode-75/)/
 Team Blind List : [https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
 
 
