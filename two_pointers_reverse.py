@@ -15,7 +15,7 @@ def twoSum(self, numbers: List[int], target: int) -> List[int]:
 		if numbers[left] + numbers[right] == target:
 			return [left, right]
 
-		if numbers[right] < target:
+		if numbers[left] + numbers[right] < target:
 			left += 1
 		else:
 			right -= 1
