@@ -3,13 +3,16 @@ Currently commiting to Leetcoding, I'm saving here the list of Algorithms I'm mo
 Purpose is having a daily shortcut/summary for Drill/Kata training.
 
 ## Problems Lists
-Leetcode-75: [https://leetcode.com/studyplan/leetcode-75/](https://leetcode.com/studyplan/leetcode-75/)\
-Blind-75: [https://neetcode.io/practice](https://neetcode.io/practice)\
+Blind-75: [https://neetcode.io/practice](https://neetcode.io/practice)
+Grind-75: [https://www.techinterviewhandbook.org/grind75](https://www.techinterviewhandbook.org/grind75)
 Sean Prashad-180 : [https://seanprashad.com/leetcode-patterns/](https://seanprashad.com/leetcode-patterns/)
+Leetcode-75: [https://leetcode.com/studyplan/leetcode-75/](https://leetcode.com/studyplan/leetcode-75/)
 Team Blind List : [https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
+
 
 ## Cheatsheet
 Below is a Cheatsheet of the Input format > Problem goal > Algorithm to use :
+See also Flowchart from AlgoMonster : [https://algo.monster/flowchart](https://algo.monster/flowchart)
 
 - Array
     - Sorted
@@ -61,7 +64,7 @@ Below is a Cheatsheet of the Input format > Problem goal > Algorithm to use :
     - [Quick Sort](quick_sort.py)
 
 
-## Daily routine
+## Training routine
 
 - Array/String
     - [Binary Search](https://leetcode.com/problems/binary-search/description/)
@@ -83,16 +86,27 @@ Below is a Cheatsheet of the Input format > Problem goal > Algorithm to use :
     - [Fast and Slow Pointers: Find middle](https://leetcode.com/problems/middle-of-the-linked-list/description/)
     - [Fast and Slow Pointers: Find cycle](https://leetcode.com/problems/linked-list-cycle/description)
     - [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+    - [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
+    - [Reorder List](https://leetcode.com/problems/reorder-list/description/)
+    - [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
 
 - Backtracking
     - [Find all solutions](https://leetcode.com/problems/generate-parentheses/description/)
+    - [Word Search](https://leetcode.com/problems/word-search/description/)
+    - [Combinations](https://leetcode.com/problems/combinations/description/)
+    - [Permutations](https://leetcode.com/problems/permutations/description/)
+    - [Permutations II](https://leetcode.com/problems/permutations-ii/description/)
+    - [Subsets](https://leetcode.com/problems/subsets/description/)
+    - [Subsets II](https://leetcode.com/problems/subsets-ii/description/)
+    - [Combination Sum](https://leetcode.com/problems/combination-sum/description/)
+    - [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)
 
 
 
 Todo : 
 - Add Merge Intervals
 - Add Memoization/Dynamic prog.
-- Add matrix build + traversal (dfs, bfs graphs ?)
+- Add Graph : matrix build + traversal (dfs, bfs ?)
 - Add Heap
 - Add Trie
 - Add Monotonic Stack/Queue
