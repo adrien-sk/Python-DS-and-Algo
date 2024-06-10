@@ -37,10 +37,10 @@ See also Flowchart from AlgoMonster : [https://algo.monster/flowchart](https://a
 
 - Graph
     - Shortest path
-        - [BFS](BFS.py)
+        - [BFS](graph_BFS.py)
     
     - Else
-        - DFS : [Preorder](DFS_preorder.py), [Inorder](DFS_inorder.py), [Postorder](DFS_postorder.py)
+        - [DFS](graph_DFS.py)
 
 - Tree
     - Question about Depth/Levels
