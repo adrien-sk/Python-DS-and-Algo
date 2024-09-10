@@ -59,12 +59,12 @@ def permuteUnique(self, nums):
 def subsets1(self, nums):
     res = []
 
-    def dfs(nums, index, path):
+    def dfs(index, path):
         res.append(path)
         for i in range(index, len(nums)):
-            dfs(nums, i + 1, path + [nums[i]])
+            dfs(i + 1, path + [nums[i]])
 
-    dfs(sorted(nums), 0, [])
+    dfs(0, [])
     return res
 
 # ----------------------------------------------------------------------------
