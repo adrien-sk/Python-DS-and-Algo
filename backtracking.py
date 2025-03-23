@@ -33,23 +33,51 @@ def permute(self, nums: List[int]) -> List[List[int]]:
 # ----------------------------------------------------------------------------
 # Permutations II
 
-def permuteUnique(self, nums):
-    res, visited = [], [False] * len(nums)
-    nums.sort()
+# Mutable version (modify Path and Count global variables) ------------------------------
+def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+    res = []
+    path = []
+    count = { n:0 for n in nums }
 
-    def backtrack(visited, path):
-        if len(nums) == len(path):
+    for n in nums:
+        count[n] += 1
+    
+    def backtrack():
+        if len(path) == len(nums):
+            res.append(path.copy())
+            return
+        
+        for n, c in count.items():
+            if c > 0:
+                path.append(n)
+                count[n] -= 1
+                backtrack()
+                count[n] += 1
+                path.pop()
+    backtrack()
+    return res
+
+
+# Pure Functional Programing version ------------------------------
+def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+    res = []
+    count = {n: 0 for n in nums}
+
+    for n in nums:
+        count[n] += 1
+
+    def backtrack(path, curr_count):
+        if len(path) == len(nums):
             res.append(path)
-            return 
-        for i in range(len(nums)):
-            if not visited[i]: 
-                if i > 0 and not visited[i - 1] and nums[i] == nums[i - 1]:  # here should pay attention
-                    continue
-                visited[i] = True
-                backtrack(visited, path + [nums[i]])
-                visited[i] = False
+            return
 
-    backtrack(visited, [])
+        for n in curr_count:
+            if curr_count[n] > 0:
+                new_count = curr_count.copy()
+                new_count[n] -= 1
+                backtrack(path + [n], new_count)
+
+    backtrack([], count)
     return res
 
 # ----------------------------------------------------------------------------
