@@ -1,18 +1,17 @@
 # Combinations
 
-def combine(self, n, k):
+def combine(self, n: int, k: int) -> List[List[int]]:
     res = []
-    nums = range(1, n + 1)
 
     def backtrack(path, index):
         if len(path) == k:
             res.append(path)
-            return #backtracking
+            return
         
-        for i in range(index, len(nums)):
-            backtrack(path + [nums[i]], i + 1)
+        for i in range(index, n + 1):
+            backtrack(path + [i], i + 1)
     
-    backtrack([], 0)
+    backtrack([], 1)
     return res
 
 # ----------------------------------------------------------------------------
