@@ -83,9 +83,12 @@ See also Flowchart from AlgoMonster : [https://algo.monster/flowchart](https://a
     - [Tree BFS](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
 
 - Graph
-    - [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)
-    - [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)
-    - [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+    - Matrix
+        - [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)
+        - [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)
+        - [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+    - Adjacency List
+        - (To Do)
 
 - Linked List
     - [Fast and Slow Pointers: Find middle](https://leetcode.com/problems/middle-of-the-linked-list/description/)
