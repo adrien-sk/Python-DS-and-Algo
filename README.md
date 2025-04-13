@@ -82,6 +82,11 @@ See also Flowchart from AlgoMonster : [https://algo.monster/flowchart](https://a
     - [Tree DFS : Postorder](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
     - [Tree BFS](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
 
+- Graph
+    - [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)
+    - [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)
+    - [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+
 - Linked List
     - [Fast and Slow Pointers: Find middle](https://leetcode.com/problems/middle-of-the-linked-list/description/)
     - [Fast and Slow Pointers: Find cycle](https://leetcode.com/problems/linked-list-cycle/description)
@@ -108,7 +113,7 @@ See also Flowchart from AlgoMonster : [https://algo.monster/flowchart](https://a
 
 Todo : 
 - Add Merge Intervals
-- Add Memoization/Dynamic prog.
-- Add Graph : matrix build + traversal (dfs, bfs ?)
+- Add Graph with : adjacency lists and edge lists
 - Add Trie
+- Add Memoization/Dynamic prog.
 - Add Monotonic Stack/Queue

@@ -6,7 +6,7 @@ def bfs(matrix):
     visited = set()
     directions = ((0, 1), (0, -1), (1, 0), (-1, 0))
 
-    def traverse(i, j):
+    def bfs(i, j):
         queue = [(i, j)]
 
         while queue:
@@ -25,4 +25,4 @@ def bfs(matrix):
 
     for i in range(rows):
         for j in range(cols):
-            traverse(i, j)
+            bfs(i, j)
