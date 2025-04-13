@@ -30,7 +30,7 @@ See also Flowchart from AlgoMonster : [https://algo.monster/flowchart](https://a
         - [Sliding Window](sliding_window.py)
     
     - Max/Min, Top/Least K items
-        - Heap
+        - [Heap](heap.py)
     
     - Common Strings
         - Trie : 208 leetcode
@@ -90,6 +90,9 @@ See also Flowchart from AlgoMonster : [https://algo.monster/flowchart](https://a
     - [Reorder List](https://leetcode.com/problems/reorder-list/description/)
     - [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
 
+- Heap
+    - [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)
+
 - Backtracking
     - [Find all solutions](https://leetcode.com/problems/generate-parentheses/description/)
     - [Word Search](https://leetcode.com/problems/word-search/description/)
@@ -107,6 +110,5 @@ Todo :
 - Add Merge Intervals
 - Add Memoization/Dynamic prog.
 - Add Graph : matrix build + traversal (dfs, bfs ?)
-- Add Heap
 - Add Trie
 - Add Monotonic Stack/Queue
