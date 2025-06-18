@@ -64,6 +64,32 @@ See also Flowchart from AlgoMonster : [https://algo.monster/flowchart](https://a
     - [Quick Sort](quick_sort.py)
 
 
+## Tree traversal details
+#### **Pre-order**
+Root -> Left -> Right
+
+- If you know you need to explore the roots before inspecting any leaves, you pick pre-order because you will encounter all the roots before all of the leaves.
+
+- Used to create a copy of a tree. For example, if you want to create a replica of a tree, put the nodes in an array with a pre-order traversal. Then perform an Insert operation on a new tree for each value in the array. You will end up with a copy of your original tree.
+
+![image](img/preorder.png)
+
+#### **In-order**
+Left -> Root -> Right
+
+- In the case of binary search trees (BST), In-order traversal gives nodes in non-decreasing order.
+
+![image](img/inorder.png)
+
+#### **Post-order**
+Left -> Right -> Root
+
+- Used to delete a tree from leaf to root.
+- If you know you need to explore all the leaves before any nodes, you select post-order because you don't waste any time inspecting roots in search for leaves.
+- It can help in garbage collection algorithms, particularly in systems where manual memory management is used.
+
+![image](img/postorder.png)
+
 ## Training routine
 
 - Array/String
@@ -112,6 +138,10 @@ See also Flowchart from AlgoMonster : [https://algo.monster/flowchart](https://a
     - [Combination Sum](https://leetcode.com/problems/combination-sum/description/)
     - [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)
 
+- Monotonic Stack
+    - [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)
+    - [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)
+    - [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/)
 
 
 Todo : 
@@ -119,4 +149,3 @@ Todo :
 - Add Graph with : adjacency lists and edge lists
 - Add Trie
 - Add Memoization/Dynamic prog.
-- Add Monotonic Stack/Queue
