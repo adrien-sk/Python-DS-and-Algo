@@ -43,6 +43,7 @@ foreach (var pair in hashMap)
 
 var numbers = new int[5] { 10, 20, 30, 40, 50 };
 var count = numbers.Length;
+var res = new int[3];
 return new int[]{};
 
 
