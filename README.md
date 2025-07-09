@@ -5,7 +5,7 @@ Purpose is having a daily shortcut/summary for Drill/Kata training.
 
 ### Cheatsheet
 
-I also trained using C#, so I made myself a short syntax recap here : [Syntax recap](c#_syntax_recap.cs)
+I also trained using C#, so I made myself a short syntax recap here : [Syntax recap](c%23_syntax_recap.cs)
 
 ## Problems Lists
 
