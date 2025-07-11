@@ -44,8 +44,22 @@ foreach (var pair in hashMap)
 var numbers = new int[5] { 10, 20, 30, 40, 50 };
 var count = numbers.Length;
 var res = new int[3];
-return new int[]{};
+//  return new int[] { };
 
+var directions = new (int, int)[]{(0, 1), (0, -1), (1, 0), (-1, 0)};
+
+int[] arr = { 1, 2, 3, 4, 5 };
+int[] sub = arr[1..4];
+
+int[,] dp = new int[3, 4]; // 3 rows, 4 columns
+dp[2, 3] = 42;
+Console.WriteLine(dp.Length);       // 12
+Console.WriteLine(dp.GetLength(0)); // 3
+Console.WriteLine(dp.GetLength(1)); // 4
+
+int[][] dp = new int[3][];
+dp[0] = new int[4];
+dp[1][2] = 5;
 
 // List -----------------------------------------------
 
@@ -56,6 +70,13 @@ list.Remove(100);       // O(n)
 list.Contains(100);     // O(n)
 var num = list[1];      // O(1)
 var count = list.Count;
+
+List<int> list1 = new List<int> { 1, 2 };
+List<int> list2 = new List<int> { 7, 8, 9 };
+List<int> new1 = new List<int>(list1) { 7, 8, 9 };
+
+list1.AddRange(list2);
+
 
 
 // StringBuilder -----------------------------------------------
