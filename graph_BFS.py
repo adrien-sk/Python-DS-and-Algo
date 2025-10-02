@@ -6,23 +6,22 @@ def bfs(matrix):
     visited = set()
     directions = ((0, 1), (0, -1), (1, 0), (-1, 0))
 
-    def bfs(i, j):
-        queue = [(i, j)]
+    def bfs(row, col):
+        queue = [(row, col)]
+        visited.add((row, col))
 
         while queue:
-            curr_i, curr_j = queue.pop(0)
+            node_r, node_c = queue.pop(0)
 
-            if not (curr_i, curr_j) in visited:
-                visited.add((curr_i, curr_j))
+            # Traverse neighbors.
+            for dir_r, dir_c in directions:
+                next_r, next_c = node_r + dir_r, node_c + dir_c
 
-                # Traverse neighbors.
-                for dir_i, dir_j in directions:
-                    next_i, next_j = i + dir_i, j + dir_j
+                if 0 <= next_r < rows and 0 <= next_c < cols:
+                    # Add in question-specific checks, where relevant.
+                    queue.append((next_r, next_c))
+                    visited.add((next_r, next_c))
 
-                    if 0 <= next_i < rows and 0 <= next_j < cols:
-                        # Add in question-specific checks, where relevant.
-                        queue.append((next_i, next_j))
-
-    for i in range(rows):
-        for j in range(cols):
-            bfs(i, j)
+    for row in range(rows):
+        for col in range(cols):
+            bfs(row, col)
